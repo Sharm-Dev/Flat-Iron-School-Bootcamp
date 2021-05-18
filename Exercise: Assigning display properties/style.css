@@ -1,0 +1,25 @@
+/* Default styling for our divs. */
+div {
+  background-color: #CCCCCC;
+  padding: 2rem;
+  margin: 1rem;
+  border: 1px solid #AAAAAA;
+}
+
+/* Your styles should be underneath this line! */
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
