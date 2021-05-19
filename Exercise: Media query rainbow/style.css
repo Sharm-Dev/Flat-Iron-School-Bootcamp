@@ -1,0 +1,17 @@
+.rainbow {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+}
+
+@media (max-width:800px) {
+    .rainbow {
+        background-color: green;
+    }
+}
+
+@media (max-width:900px) {
+    .rainbow {
+        background-color: blue;
+    }
+}
