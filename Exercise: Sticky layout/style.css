@@ -1,0 +1,20 @@
+body > * {
+  border: 1px solid #AAAAEE;
+  background-color: #BBBBFF;
+}
+
+/* Add you custom CSS rules under this line! */
+/* header {
+    position: fixed;
+} */
+header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
