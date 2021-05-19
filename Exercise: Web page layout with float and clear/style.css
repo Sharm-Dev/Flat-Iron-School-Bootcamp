@@ -1,0 +1,40 @@
+.clearfix {
+  /* Elements matching this rule should employ the "clearfix hack" we discussed. */
+  overflow: auto;
+  zoom: 1;
+}
+
+.right {
+  /* Elements matching this rule should display on the right side of the page. */
+  float: right;
+  margin: 0px 0px 10px 20px;
+}
+
+.left {
+  /* Elements matching this rule should display on the left side of the page. */
+  float: left;
+  margin: 0px 25px 10px 0px;
+}
+
+.clear {
+  /* Elements matching this rule should be on their own row, with nothing on either side. */
+  clear: both;
+}
+
+/* No need to change these */
+body {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  border: 2px solid #AAA;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+footer {
+  border: 2px solid #AAA;
+  margin-top: 20px;
+  padding: 10px;
+}
